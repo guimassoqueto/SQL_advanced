@@ -1,7 +1,6 @@
 CREATE TABLE [table_name] (
 	[column1] VARCHAR(15) NOT NULL,
-	[column2] VARCHAR(15) NOT NULL,
-    ADD CONSTRAINT [constraint_name] CHECK([rules])
+	[column2] VARCHAR(15) NOT NULL CONSTRAINT [constraint_name] CHECK([rules for column2])
 )
 
 ALTER TABLE [table_name]
