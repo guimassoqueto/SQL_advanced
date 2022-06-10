@@ -1,0 +1,5 @@
+CREATE TABLE [table_name]
+[column1] INT PRIMARY KEY; -- PRIMARY KEY IS THE COMBINATION OF UNIQUE AND NOT NULL
+
+ALTER TABLE [table_name]
+ADD CONSTRAINT [constraint_name] PRIMARY KEY ([column_name])
